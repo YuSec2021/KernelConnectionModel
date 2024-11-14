@@ -17,10 +17,24 @@
       <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
       <Extensions>inf;inv;inx;mof;mc;</Extensions>
     </Filter>
+    <Filter Include="comm">
+      <UniqueIdentifier>{058af6bd-e4a9-4400-8eb9-466b8b36d4bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Inf Include="KernelConnectionModel.inf">
-      <Filter>Driver Files</Filter>
-    </Inf>
+    <ClCompile Include="Test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comm\comm.c">
+      <Filter>comm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="comm\comm.h">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="comm\commStruct.h">
+      <Filter>comm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
